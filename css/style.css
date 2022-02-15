@@ -1,0 +1,495 @@
+:root{
+    /* color */
+    --primaryColor : #FF9400;
+    --secondaryColor :#323232;
+    /* --secondaryColor : #DDC190; */
+    --blackColor : #121212;
+
+
+    /* fonts */
+    --mainFont: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box !important;
+}
+
+body{
+    font-family: var(--mainFont);
+}
+
+/* Navbar */
+.navbar{
+    background-color: var(--secondaryColor) !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: var(--primaryColor) !important;
+    margin-right: 0;
+}
+
+.nav-link{
+    font-size: 16px;
+    color: white !important;
+}
+
+.navbar a:hover{
+    color: var(--primaryColor) !important;
+    font-weight: bold;
+}
+/* 
+.nav-link.active{
+    font-weight: 700;
+    color: var(--primaryColor) !important;
+} */
+
+.button-primary{
+    height: 40px;
+    width: 119px;
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* home */
+#home{
+    padding-top: 10rem;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.home .heading{
+    color: var(--blackColor);
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 42px;
+}
+
+.home .subheading{
+    color: var(--blackColor);
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+.home span{
+    color: var(--primaryColor) !important;
+}
+
+.home .btn-start{
+    width: 158px;
+    height: 47px;
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.home .btn-arrow{
+    /* font-size: 25px; */
+    color: var(--primaryColor) !important;
+    width: 25px;
+}
+
+.home img{
+    right: 0;
+    bottom: 0px;
+}
+
+.brands{
+    height: 150px;
+    background-color: var(--secondaryColor);
+}
+/* Program */
+#program{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.program .heading{
+    color: var(--blackColor);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 42px;
+}
+
+.program .subheading{
+    color: var(--blackColor);
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.program .btn-start{
+    width: 140px;
+    height: 45px;
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+/* 
+.program .batas{
+    background-color:var(--secondaryColor);
+    margin-top: 100px;
+} */
+
+/* Pricing */
+#pricing{
+    width: 100%;
+    background-color: var(--secondaryColor);
+    padding: 100px;
+    /* padding: 100px 0; */
+}
+
+.pricing .heading{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pricing .subheading{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.pricing .card-pricing{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all .3s ease-in;
+}
+
+.pricing .card-pricing:hover{
+    background-color: var(--primaryColor);
+}
+
+/* .card-pricing:hover h2{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:  white;
+} */
+.pricing .card-pricing h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--blackColor);
+    transition: all .5s ease-in;
+}
+
+.pricing .card-pricing:hover h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.pricing .card-pricing p{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--blackColor);
+    transition: all .5s ease-in;
+}
+.pricing .card-pricing:hover p{
+    font-weight: bold;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+
+.card-pricing .btn-pricing{
+    background-color: var(--primaryColor) !important;
+    width: 105px;
+    height: 33px;
+    margin: auto;
+    padding: 3px;
+    /* margin-top: 10px; */
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+
+.card-pricing:hover .btn-pricing{
+    background-color: white !important;
+    width: 105px;
+    height: 33px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-pricing a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center !important;
+    text-decoration: none;
+}
+.card-pricing:hover a{
+    color: var(--blackColor);
+    text-decoration: none;
+}
+
+#trainer{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.trainer .heading{
+    color: var(--blackColor);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.trainer .subheading{
+    color: var(--blackColor);
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.trainer .name{
+    color: var(--primaryColor);
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.trainer .subname{
+    color: var(--blackColor);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+.trainer .btn-trainer{
+    width: 182px;
+    /* height: 48px; */
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.trainer .btn-trainer a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#about{
+    width: 100%;
+    padding: 100px 0;
+    /* padding: 100px 0; */
+}
+
+.about .heading{
+    color: var(--blackColor);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about .subheading{
+    color: var(--blackColor);
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.about .card-about{
+    border: none;
+    background-color: var(--primaryColor);
+    border-radius: 15px;
+}
+
+.card-about h4{
+    padding-top: 58px;
+    padding-left: 162px;
+    padding-right: 513px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.card-about .name{
+    padding-top: 12px;
+    padding-left: 162px;
+    padding-right: 513px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-about .city{
+    padding-left: 162px;
+    padding-right: 513px;
+    padding-bottom: 68px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+img.img-hero{
+    position: absolute;
+    right: 10%;
+    top: 470%;
+}
+
+footer{
+    background-color: var(--secondaryColor);
+    color: white;
+}
+footer .foot-customs-1{
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.foot-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-name{
+    width: 90%;
+}
+
+.foot-right .foot-links-custom{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-link-customs{
+    padding: 0 10px;
+}
+
+footer .foot-customs-2{
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.foot-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-name{
+    width: 90%;
+}
+
+.foot-right .nav-links-custom{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-customs a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    /* Home */
+    #home{
+        padding-top: 10rem;
+        width: 100%;
+    }
+    .home .heading{
+        color: var(--blackColor);
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 42px;
+    }
+
+    .home .subheading{
+    font-size: 15px;
+    margin-bottom: 60px;
+    }
+
+    .home .btn-start{
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    /* Brands */
+    .brands {
+        height: 450px;
+    }
+    .brands .img-fluid{
+        width: 200px;
+        margin-bottom: 30px;
+        
+    }
+
+    /* Program */  
+    .program .heading{
+        color: var(--blackColor);
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 35px;
+        margin-top: 40px;
+    }
+    
+    .program img{
+        width: 50rem;
+        /* height: 80rem; */
+    }
+    
+    .program .subheading{
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .program .btn-start{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* About */
+    .card-about h4{
+        padding-top: 58px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .card-about .name{
+        padding-top: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .card-about .city{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 68px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
